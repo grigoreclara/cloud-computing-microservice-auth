@@ -10,7 +10,7 @@
     </parent>
     <groupId>ro.unibuc.fmi.diet-app.microservice</groupId>
     <artifactId>authentication</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>authentication</name>
     <description>authentication</description>
     <properties>
@@ -35,7 +35,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-kubernetes-client-all</artifactId>
         </dependency>
 
         <dependency>

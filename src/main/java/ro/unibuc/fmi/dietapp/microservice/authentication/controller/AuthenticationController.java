@@ -6,14 +6,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 import ro.unibuc.fmi.dietapp.microservice.authentication.dto.LoginDto;
 import ro.unibuc.fmi.dietapp.microservice.authentication.mapper.LoginMapper;
 import ro.unibuc.fmi.dietapp.microservice.authentication.utils.JwtUtil;
 
-@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/auth")
 public class AuthenticationController {
